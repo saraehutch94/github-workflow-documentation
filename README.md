@@ -96,9 +96,11 @@
 - Underneath the nav options `Go to file`, `Add to file`, and the green button `Code`, there should be an option for clicking `Pull request`. You can do this here as well.
 - **Make sure you're comparing the GitHub manager's master with your dev branch**
 
-  14.) Once pull request is approved (you will be notified if approved, denied or merge conflict happens. GitHub manager will resolve any conflicts and reach out for further steps)
+<br>
 
-  15.) After approval, head back to your VSCode/local branches. Check out to your master branch:
+14.) Once pull request is approved (you will be notified if approved, denied or merge conflict happens. GitHub manager will resolve any conflicts and reach out for further steps)
+
+15.) After approval, head back to your VSCode/local branches. Check out to your master branch:
 
 `git checkout master`
 
