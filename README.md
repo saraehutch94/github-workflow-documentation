@@ -110,6 +110,8 @@
 
 17.) Save your file. Add, commit and push to your master branch.
 
-18.) Checkout to your development branch, and start the process over again from **Step 11**.
+18.) Checkout to your development branch:
 
 `git checkout development`
+
+19.) Start process over again **Step 11** until project is complete
