@@ -78,8 +78,9 @@
 
 \* **Always push to your remote dev branch before making any pull requests.**
 
-11.) Head to the GitHub manager's remote master repository on GitHub, and administer a **pull request**:
+11.) Head to your forked repository on GitHub, and administer a **pull request**:
 
+- Make sure you make pull request from your **dev branch**
 - After you push to your dev branch, you may see a green box pop up on the GitHub manager's remote repo page, letting you know you can administer a pull request. You can do this from here, OR
 - Underneath the nav options `Go to file`, `Add to file`, and the green button `Code`, there should be an option for clicking `Pull request`. You can do this here as well.
 - **Make sure you're comparing the GitHub manager's master with your dev branch**
