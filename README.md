@@ -74,7 +74,9 @@
 
 9.) Add your code, _making sure you won't be conflicting with anyone else's contributions or deleting any important code._
 
-10.) Save your file(s), and then add, commit, and push to your **dev** branch.
+10.) Save your file(s), and then add, commit, and push to your **dev** branch:
+
+`git push origin development`
 
 \* **Always push to your remote dev branch before making any pull requests.**
 
