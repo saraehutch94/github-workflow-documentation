@@ -65,30 +65,20 @@
 `git remote add upstream <url-of-GitHub-manager-remote-repo>`  
 `git remote -v` \* should yield two repositories, both origin and upstream
 
-8.) Pull down from upstream to get starter code:
-
-`git pull upstream master`
-
-9.) Add, commit and push to your master like you normally do - _make sure to save file(s) before adding_:
-
-`git add -A`  
-`git commit -m "add starter code to master repo"`  
-`git push origin master`
-
-10.) Create separate dev branch
+8.) Create separate dev branch
 
 `git checkout -b dev`
 
 \* This branch will be for your development of the code and for any pull requests to the GitHub manager's master remote.  
 \* **Your master is the branch that will be only be used for pulling down from the GitHub manager's master remote, not development of code.**
 
-11.) Add your code, _making sure you won't be conflicting with anyone else's contributions or deleting any important code._
+9.) Add your code, _making sure you won't be conflicting with anyone else's contributions or deleting any important code._
 
-12.) Save your file(s), and then add, commit, and push to your **dev** branch.
+10.) Save your file(s), and then add, commit, and push to your **dev** branch.
 
 \* **Always push to your remote dev branch before making any pull requests.**
 
-13.) Head to the GitHub manager's remote master repository on GitHub, and administer a **pull request**:
+11.) Head to the GitHub manager's remote master repository on GitHub, and administer a **pull request**:
 
 - After you push to your dev branch, you may see a green box pop up on the GitHub manager's remote repo page, letting you know you can administer a pull request. You can do this from here, OR
 - Underneath the nav options `Go to file`, `Add to file`, and the green button `Code`, there should be an option for clicking `Pull request`. You can do this here as well.
@@ -96,20 +86,20 @@
 
 <br>
 
-14.) Once pull request is approved (you will be notified if approved, denied or merge conflict happens. GitHub manager will resolve any conflicts and reach out for further steps)
+12.) Once pull request is approved (you will be notified if approved, denied or merge conflict happens. GitHub manager will resolve any conflicts and reach out for further steps)
 
-15.) After approval, head back to your VSCode/local branches. Check out to your master branch:
+13.) After approval, head back to your VSCode/local branches. Check out to your master branch:
 
 `git checkout master`
 
-16.) Run command for pulling down code from upstream:
+14.) Run command for pulling down code from upstream:
 
 `git pull upstream master`
 
-17.) Save your file. Add, commit and push to your master branch.
+15.) Save your file. Add, commit and push to your master branch.
 
-18.) Checkout to your development branch:
+16.) Checkout to your development branch:
 
 `git checkout development`
 
-19.) Start process over again **Step 11** until project is complete
+1.) Start process over again **Step 11** until project is complete
