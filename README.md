@@ -57,7 +57,7 @@
 `cd <project-name>`  
 `code .` or `code-insiders .`
 
-7.) Initialize git in your VSCode terminal, and add an **upstream remote** to your directory:
+7.) Add an **upstream remote** to your directory:
 
 \* _master remote_ --> url for forked version of GitHub manager's remote repository (should be present already)  
 \* _upstream remote_ --> url for GitHub manager's remote repository
