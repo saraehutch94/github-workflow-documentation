@@ -102,4 +102,8 @@
 
 `git checkout development`
 
-1.) Start process over again **Step 11** until project is complete
+17.) Merge your pulled-down changes to your dev branch:
+
+`git merge master`
+
+18.) Start process over again **Step 11** until project is complete
